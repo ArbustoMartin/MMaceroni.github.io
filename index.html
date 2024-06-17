@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+      <meta charset="utf-8">
+      <meta name="author" content="Augusto Martin" />
+      <meta name="copyright" content="Augusto Martin" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />      
+</head>
+<body>
+			<div class="field" id="searchform">
+        <input type="text" id="searchterm" placeholder="Que estas buscando?" />
+        <button type="button" id="search">Busqueda!</button>
+      </div>
+
+      <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    <center><img src="img/logo.png" id="logo"></body></center>
+
+    <div class="ContainerCenter">
+  <!-- Radio Seleccionar -->
+  <input type="radio" name="Carrusel" id="Slider1" checked>
+  <input type="radio" name="Carrusel" id="Slider2">
+  <input type="radio" name="Carrusel" id="Slider3">
+  
+  <div class="Carrusels">
+    <!-- Imagen contenido -->
+    <div class="Carrusel" style="background-image: url(img/plys.jpg);"></div> 
+    <div class="Carrusel" style="background-image: url(img/repl.jpg);"></div>
+    <div class="Carrusel" style="background-image: url(img/plys.jpg);"></div>
+    
+    <!-- Flechas a la izquierda por cada imagen -->
+    <label for="Slider3" class="ArrowLeft Arrow1">❮</label>
+    <label for="Slider1" class="ArrowLeft Arrow2">❮</label>
+    <label for="Slider2" class="ArrowLeft Arrow3">❮</label>
+	
+    <!-- Flechas a la derecha por cada imagen -->
+    <label for="Slider2" class="ArrowRight Arrow1">❯</label> 
+    <label for="Slider3" class="ArrowRight Arrow2">❯</label>
+    <label for="Slider1" class="ArrowRight Arrow3">❯</label>
+  </div>
+  
+  <!-- Selector circulos inferiores colgantes -->
+  <div class="Selectors">
+    <label for="Slider1" class="Selector"></label>
+    <label for="Slider2" class="Selector"></label>
+    <label for="Slider3" class="Selector"></label>
+  </div>
+</div>
+
+<center><div class="descripcion">
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Optio expedita praesentium mollitia in eius, dolore vitae. 
+    Magnam odio nisi nam, maxime sequi pariatur ipsa quas distinctio debitis eaque, et facere?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+      Optio expedita praesentium mollitia in eius, dolore vitae. 
+      Magnam odio nisi nam, maxime sequi pariatur ipsa quas distinctio debitis eaque, et facere?</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Optio expedita praesentium mollitia in eius, dolore vitae. 
+        Magnam odio nisi nam, maxime sequi pariatur ipsa quas distinctio debitis eaque, et facere?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Optio expedita praesentium mollitia in eius, dolore vitae. 
+          Magnam odio nisi nam, maxime sequi pariatur ipsa quas distinctio debitis eaque, et facere?</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Optio expedita praesentium mollitia in eius, dolore vitae. 
+            Magnam odio nisi nam, maxime sequi pariatur ipsa quas distinctio debitis eaque, et facere?</p>
+</div></center>
+</body>
+</html>
